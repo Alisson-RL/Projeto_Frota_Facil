@@ -1,0 +1,139 @@
+/*color2: #3399ff
+color 3: #cce6ff*/
+
+
+
+h3{
+	text-align: center;
+}
+
+/* CSS NAVBAR*/
+.navbar-inverse .navbar-brand {
+  color: #cce6ff;
+}
+
+.navbar-brand {
+  font-size: 22px;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #fff;
+  background-color: #cce6ff;
+  text-shadow: 1px 1px 2px black;
+}
+
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus{
+  color: #fff;
+  text-decoration: none;
+  background-color: #3399ff;
+}
+
+/*FIM CSS NAVBAR*/
+
+
+.titulo-veiculo{
+	text-align: center;
+	margin: 40px 0;
+}
+
+.panel{
+	border: 1px solid #3399ff;
+}
+
+.painel-menor{
+	height: 400px;
+}
+
+.panel-heading{
+	background-color: #101010;
+}
+.panel-title{
+	color: #cce6ff;
+	font-weight: bold;
+	font-size: 1.5em;
+	text-align: center;
+	text-decoration: bold;
+	text-shadow: 2px 2px 4px #3399ff;
+}
+
+
+.mapa-inicial{
+	margin-bottom: 35px;
+}
+
+.informacoes-inicial{
+	margin-top: 40px;
+}
+
+.conteudo-informacoes{
+	display: -webkit-flex; /* Safari */
+    -webkit-align-items: center; /* Safari 7.0+ */
+    display: flex;
+    align-items: center;
+}
+
+.imagem-informacoes{
+	margin: auto;
+	height: 150px;
+	width: 150px;
+	padding-bottom: 30px; 
+}
+
+
+/*CSS BOTÕES*/
+.btn-info{
+	background-color: #101010;
+	border-color: #101010;
+	text-align: center;   
+}
+
+.btn-info:hover{
+	background-color: #cce6ff;
+	text-shadow: 1px 1px 2px black
+}
+
+.btn-primary{
+	background-color: #101010;
+}
+
+.btn-primary:hover{
+	background-color: #cce6ff;
+	text-shadow: 1px 1px 2px black;
+}
+/*FIM CSS BOTÕES*/
+
+
+.form-signin-heading{
+	text-align: center;
+}
+
+
+
+/*CSS FOOTER*/
+footer{
+	background-color: #101010;
+	height: 50px;
+	width: 100%;
+}
+
+#login-footer{
+	position: absolute;
+	bottom: 0;
+}
+
+footer div{
+	padding-top: 15px;
+}
+
+.link-footer{
+	margin: 0;
+	padding: 0px 15px;
+}
+/*FIM CSS FOOTER*/
+
+
+/*mensagem de validacao de formulario*/
+#success_message{ display: none;}
